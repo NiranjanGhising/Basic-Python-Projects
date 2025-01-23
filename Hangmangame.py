@@ -62,7 +62,7 @@ def main():
     print(main_game)
 
     
-    print(random_word)
+    
 
 
 
