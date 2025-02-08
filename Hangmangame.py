@@ -18,12 +18,15 @@ def guessing_letter(random_word,hide_words):
     total_attempt = 5
     hide_word_list = list(hide_words)
 
+
+
     #run while the game over or user win game
     while total_attempt>0:
 
         
         gusses= input("enter A letter that can be in the word: ").upper()
-
+    
+        
         if gusses in  gusses_letter:
             print("You have already Enter this letter")
         #if gussed correct word
@@ -56,10 +59,10 @@ def main():
     
     random_word = get_word()
     hide_words = hidden_word(random_word)
-    print(hide_words)
+    
 
     main_game = guessing_letter(random_word, hide_words)
-    print(main_game)
+    
 
     
     
@@ -67,6 +70,5 @@ def main():
 
 
 result = main()
-print(result)
 
 
