@@ -1,0 +1,5 @@
+admin;admin;admin
+niranjan;niranjan;chief
+sampada;sampada;chief
+anubhav;anubhav;customer
+sudiya;sudiya;manager
